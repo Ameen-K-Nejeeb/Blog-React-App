@@ -30,3 +30,35 @@ body {
   border-top-right-radius: 1rem;
   background: #f8fafc;
 }
+
+.blog-content,
+.blog-preview {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.blog-content :where(img, video, iframe),
+.blog-preview :where(img, video, iframe) {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.blog-content :where(pre),
+.blog-preview :where(pre) {
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+.blog-content :where(p, li, blockquote, h1, h2, h3, h4, h5, h6),
+.blog-preview :where(p, li, blockquote, h1, h2, h3, h4, h5, h6) {
+  overflow-wrap: anywhere;
+}
+
+.blog-content :where(table),
+.blog-preview :where(table) {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}

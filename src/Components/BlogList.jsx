@@ -43,7 +43,7 @@ const BlogList = ({ blogs, currentUserId, deletingId, onDelete }) => {
               </div>
 
               <div
-                className="line-clamp-4 text-sm leading-6 text-slate-600"
+                className="blog-preview line-clamp-4 text-sm leading-6 text-slate-600"
                 dangerouslySetInnerHTML={{ __html: blog.description }}
               />
 

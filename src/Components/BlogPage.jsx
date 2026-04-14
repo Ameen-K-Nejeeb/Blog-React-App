@@ -89,7 +89,7 @@ const BlogPage = () => {
           ) : null}
 
           <div
-            className="prose max-w-none text-slate-700"
+            className="blog-content prose max-w-none text-slate-700"
             dangerouslySetInnerHTML={{ __html: blog.description }}
           />
         </div>
