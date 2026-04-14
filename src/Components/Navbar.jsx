@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-4 md:flex-row md:items-center md:justify-between">
         <div>
           <Link to='/' className='text-2xl font-bold text-white'>Blog App</Link>
-          <p className='text-sm text-slate-400'>Firebase-authenticated publishing workflow</p>
+          <p className='text-sm text-slate-400'>Where talented minds meet...</p>
         </div>
 
         <div className='flex flex-wrap items-center gap-4 text-sm font-medium'>

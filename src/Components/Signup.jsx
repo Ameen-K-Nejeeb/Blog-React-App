@@ -33,7 +33,7 @@ const Signup = () => {
         <div className="flex min-h-[calc(100vh-88px)] items-center justify-center px-4 py-10">
             <div className='w-full max-w-md rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-slate-200'>
                 <h2 className="text-center text-3xl font-bold text-slate-950">Create account</h2>
-                <p className="mt-2 text-center text-sm text-slate-500">Your session will stay available after refresh using Firebase auth persistence.</p>
+                <p className="mt-2 text-center text-sm text-slate-500">Create a New Account ,Enjoy the Creativity.</p>
 
                 <form className='mt-8 space-y-6' onSubmit={handleSubmit}>
                     {error ? <p className="rounded-2xl border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-700">{error}</p> : null}

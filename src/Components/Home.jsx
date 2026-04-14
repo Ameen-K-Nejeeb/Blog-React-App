@@ -53,10 +53,10 @@ const Home = () => {
     <div className="mx-auto max-w-6xl px-4 py-10">
       <div className="mb-8 flex flex-col gap-4 rounded-3xl bg-white p-8 shadow-sm ring-1 ring-slate-200 md:flex-row md:items-end md:justify-between">
         <div className="max-w-2xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-sky-600">Live from Firestore</p>
+          {/* <p className="text-sm font-semibold uppercase tracking-[0.3em] text-sky-600">Live from Firestore</p> */}
           <h1 className="mt-3 text-4xl font-bold tracking-tight text-slate-950">Publish blogs with persistent sessions</h1>
           <p className="mt-3 text-base text-slate-600">
-            Every post now comes from Firebase, and logged-in users can only edit or remove their own content.
+            Every Posts comes from Talented Minds, Create your own posts.
           </p>
         </div>
 

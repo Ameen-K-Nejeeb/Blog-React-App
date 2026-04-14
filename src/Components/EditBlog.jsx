@@ -92,7 +92,7 @@ const EditBlog = () => {
     <div className="mx-auto max-w-3xl px-4 py-10">
       <div className="rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-slate-200 md:p-10">
         <h2 className="text-3xl font-bold tracking-tight text-slate-950">Edit your blog</h2>
-        <p className="mt-2 text-slate-500">Changes are saved back to Firestore and stay tied to your account.</p>
+        <p className="mt-2 text-slate-500">Changes are saved back to your blog and stay tied to your account.</p>
 
         <form onSubmit={handleSubmit} className="mt-8 space-y-5">
           {error ? <p className="rounded-2xl border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-700">{error}</p> : null}
