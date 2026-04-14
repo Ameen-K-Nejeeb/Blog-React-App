@@ -1,26 +1,23 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
-export const blogSlice = createSlice({
-    name: 'blogs',
-    initialState: [],
-    reducers: {
-
-        addBlog: (state, action) => {
-            state.push(action.payload);
-        },
-
-        deleteBlog: (state, action) => {
-            return state.filter(blog => blog.id !== action.payload);
-        },
-        updateBlog: (state, action) => {
-            const index = state.findIndex(blog => blog.id === action.payload.id);
-            if (index !== -1) {
-                state[index] = action.payload;
-            }
-        },
+const blogSlice = createSlice({
+  name: 'blogs',
+  initialState: [],
+  reducers: {
+    addBlog: (state, action) => {
+      state.push(action.payload);
     },
+    updateBlog: (state, action) => {
+      const index = state.findIndex(b => String(b.id) === String(action.payload.id));
+      if (index !== -1) {
+        state[index] = action.payload;
+      }
+    },
+    deleteBlog: (state, action) => {
+      return state.filter(b => String(b.id) !== String(action.payload));
+    },
+  },
 });
 
-export const { addBlog, deleteBlog, updateBlog } = blogSlice.actions;
+export const { addBlog, updateBlog, deleteBlog } = blogSlice.actions;
 export default blogSlice.reducer;
-

@@ -4,19 +4,22 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "vite --configLoader native",
+    "build": "vite build --configLoader native",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview --configLoader native"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",
+    "@tailwindcss/vite": "^4.2.2",
     "firebase": "^12.12.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-quill-new": "^3.8.3",
     "react-redux": "^9.2.0",
-    "react-router-dom": "^7.14.0"
+    "react-router-dom": "^7.14.0",
+    "tailwindcss": "^4.2.2",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
