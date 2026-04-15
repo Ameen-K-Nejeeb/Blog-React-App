@@ -56,7 +56,7 @@ export const createBlog = async ({ title, description, image, user }) => {
 
   return addDoc(blogsCollection, blog);
 };
-
+// security guard
 const getOwnedBlogRef = async (blogId, userId) => {
   const blogRef = doc(db, "blogs", blogId);
   const snapshot = await getDoc(blogRef);

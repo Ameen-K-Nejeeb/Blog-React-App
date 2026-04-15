@@ -33,7 +33,7 @@ const Login = () => {
 
   return (
     <div className="flex min-h-[calc(100vh-88px)] items-center justify-center px-4 py-10">
-      <div className="w-full max-w-md rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-slate-200">
+      <div className="w-full max-w-md rounded-4xl bg-white p-8 shadow-sm ring-1 ring-slate-200">
         <h2 className="text-center text-3xl font-bold text-slate-950">Login</h2>
         <p className="mt-2 text-center text-sm text-slate-500">Continue with your existing account.</p>
 

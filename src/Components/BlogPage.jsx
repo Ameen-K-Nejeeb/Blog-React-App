@@ -62,7 +62,7 @@ const BlogPage = () => {
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-10">
-      <div className="overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-slate-200">
+      <div className="overflow-hidden rounded-4xl bg-white shadow-sm ring-1 ring-slate-200">
         <img src={blog.image} className="h-72 w-full object-cover md:h-96" alt={blog.title} />
         <div className="space-y-6 p-6 md:p-10">
           <div className="space-y-3">

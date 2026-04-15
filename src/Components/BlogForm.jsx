@@ -47,7 +47,7 @@ const BlogForm = () => {
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
-      <div className="rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-slate-200 md:p-10">
+      <div className="rounded-4xl bg-white p-8 shadow-sm ring-1 ring-slate-200 md:p-10">
         <h2 className="text-3xl font-bold tracking-tight text-slate-950">Create a new post</h2>
         <p className="mt-2 text-slate-500">Every Posts comes from Talented Minds, Create your own posts.</p>
 

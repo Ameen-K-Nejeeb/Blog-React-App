@@ -1,6 +1,6 @@
 import { createContext, useEffect, useMemo, useState } from "react";
 import {
-  browserLocalPersistence,
+  browserLocalPersistence, // stil remember
   createUserWithEmailAndPassword,
   onAuthStateChanged,
   setPersistence,
